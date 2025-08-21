@@ -1,0 +1,29 @@
+*,
+ html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #909090;
+}
+
+nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-self: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "segoe UI", sans-serif;
+    color: black;
+}
